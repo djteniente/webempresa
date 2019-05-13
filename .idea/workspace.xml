@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5cc3f22-183d-44e2-acf1-1c35c25131cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webempresa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/templates/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/templates/services/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/social/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/social/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webempresa/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webempresa/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webempresa/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webempresa/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +16,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webempresa/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="421">
+              <caret line="52" column="61" lean-forward="true" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/social/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding>
-                <element signature="e#84#93#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,10 +58,12 @@
       <list>
         <option value="$PROJECT_DIR$/services/views.py" />
         <option value="$PROJECT_DIR$/core/templates/core/base.html" />
-        <option value="$PROJECT_DIR$/social/models.py" />
         <option value="$PROJECT_DIR$/social/apps.py" />
-        <option value="$PROJECT_DIR$/webempresa/settings.py" />
         <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/webempresa/settings.py" />
+        <option value="$PROJECT_DIR$/social/models.py" />
+        <option value="$PROJECT_DIR$/services/models.py" />
+        <option value="$PROJECT_DIR$/social/admin.py" />
       </list>
     </option>
   </component>
@@ -154,25 +169,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557776184717</updated>
-      <workItem from="1557776186363" duration="2484000" />
+      <workItem from="1557776186363" duration="4242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2484000" />
+    <option name="totallyTimeSpent" value="4242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1278" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27427185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27427185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2960396" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2960396" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -209,10 +224,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/social/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="104" selection-start-line="104" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -225,30 +279,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/social/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social/views.py">
+    <entry file="file://$PROJECT_DIR$/services/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/webempresa/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="17" />
+        <state relative-caret-position="421">
+          <caret line="52" column="61" lean-forward="true" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/services/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state>
           <folding>
-            <element signature="e#84#93#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
