@@ -3,7 +3,7 @@
 
 {% block content %}
 
-  {% for service in services %}
+  {% for service in services reversed %}
     <section class="page-section">
       <div class="container">
         <div class="product-item">
@@ -18,7 +18,7 @@
           <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{ service.image.url }}" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa purus, posuere non neque sed, ultricies ornare magna. Donec eu lobortis ex. Morbi maximus tempor accumsan. Mauris pellentesque mauris id nibh vestibulum, id sodales lorem bibendum. Nunc at interdum velit. Donec nec sapien eget arcu imperdiet bibendum</p>
+              <p class="mb-0">{{ service.content }}</p>
             </div>
           </div>
         </div>
