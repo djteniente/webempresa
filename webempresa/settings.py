@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'ckeditor',
     'blog.apps.BlogConfig',
+    'pages.apps.PagesConfig',
     'services.apps.ServicesConfig',
     'social.apps.SocialConfig',
 ]
@@ -127,3 +129,9 @@ STATIC_URL = '/static/'
 #Media Config
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+CKEDITOR_CONFIGS = {
+    'default':{
+        'toolbar': 'basic',
+    }
+}
