@@ -31,6 +31,9 @@ urlpatterns = [
     #Path de Paginas
     path('page/', include('pages.urls')),
 
+    #Path de Contacto
+    path('contact/', include('contact.urls')),
+
     #Path del admin
     path('admin/', admin.site.urls),
 ]

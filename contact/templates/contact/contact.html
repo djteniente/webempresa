@@ -13,8 +13,18 @@
                   <span class="section-heading-upper">Envíanos tus dudas</span>
                   <span class="section-heading-lower">Contacto</span>
                 </h2>
-
+                  {% if 'ok' in request.GET %}
+                        <p><b>Su mensaje ha sido enviado correctamente</b></p>
+                  {% endif%}
+                  <form action="" method="POST">
+                  {% csrf_token %}
+                  <table>
+                        {{ form.as_table }}
+                  </table>
+                  <input type="submit" value="Enviar">
+                  </form>
                 <!-- Formulario de contacto -->
+                  <!--
                 <form>
                     <div class="form-group">
                         <label>Nombre *</label>
@@ -41,6 +51,7 @@
                         <input type="submit" class="btn btn-primary btn-block py-2" value="Enviar">
                     </div>
                 </form>
+                -->
                 <!-- Fin formulario de contacto -->
 
               </div>
